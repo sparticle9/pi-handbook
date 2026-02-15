@@ -1,15 +1,17 @@
 # Pi Coding Agent Handbook
 
-> *"There are many coding agents, but this one is mine."*
+I've been through the cycle — Cursor, Claude Code, Amp, OpenCode, Codex. I still use most of them. But when I found [pi](https://github.com/badlogic/pi-mono), something clicked. It's the agent that finally made me stop reaching for Claude Code. Not because pi does everything, but because it does so little and gets out of the way.
+
+This handbook is what I wish existed when I started with pi. It covers the philosophy, the architecture, the extension system, the tradeoffs, and the honest gaps. It's opinionated because pi is opinionated, and that's the point.
+
+## What's inside
+
+The core argument for pi, the four-tool architecture, how extensions replace features other agents bake in, the no-MCP stance (and why MCP 2.0 might change the calculus), community packages like oracle and handoff, a fair comparison with Claude Code / Amp / OpenCode / Aider, and a quick start that gets you running on macOS, Linux, or Android via Termux.
+
+12 chapters. Code snippets. Every claim sourced.
 
 !!! note "Disclaimer"
     This is an unofficial community handbook. It is not affiliated with or endorsed by Mario Zechner or the pi project. All quotes are attributed to their original authors and linked to their sources. Pi is [MIT licensed](https://github.com/badlogic/pi-mono/blob/main/LICENSE).
-
----
-
-[Pi](https://github.com/badlogic/pi-mono) is a minimal terminal coding agent by Mario Zechner. It is the engine behind [OpenClaw](https://github.com/openclaw/openclaw), used daily by notable developers including Armin Ronacher (creator of Flask/Ruff) and Peter Steinberger (founder of PSPDFKit).
-
-Pi runs anywhere Node.js runs — macOS, Linux, Windows, and even Android via Termux. Copy your `models.json` to a new device, install pi, and you're ready to go. Extensions and skills install via CLI afterwards.
 
 ## Chapters
 
