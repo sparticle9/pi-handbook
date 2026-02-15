@@ -1,0 +1,11 @@
+INHERIT: mkdocs.yml
+
+plugins:
+  - search
+  - with-pdf:
+      author: Pi Handbook Community
+      copyright: CC BY-SA 4.0
+      cover: true
+      cover_title: Pi Coding Agent Handbook
+      cover_subtitle: An unofficial community handbook
+      output_path: pdf/pi-handbook.pdf

@@ -4,11 +4,21 @@ I've been through the cycle — Cursor, Claude Code, Amp, OpenCode, Codex. I sti
 
 This handbook is what I wish existed when I started with pi. It covers the philosophy, the architecture, the extension system, the tradeoffs, and the honest gaps. It's opinionated because pi is opinionated, and that's the point.
 
+I don't claim to be an expert. I'm just a builder who got hooked and wanted to write things down. If something here is wrong, outdated, or could be said better — please fix it. This is your handbook too.
+
 ## What's inside
 
 The core argument for pi, the four-tool architecture, how extensions replace features other agents bake in, the no-MCP stance (and why MCP 2.0 might change the calculus), community packages like oracle and handoff, a fair comparison with Claude Code / Amp / OpenCode / Aider, and a quick start that gets you running on macOS, Linux, or Android via Termux.
 
 12 chapters. Code snippets. Every claim sourced.
+
+## Get involved
+
+This handbook lives or dies by contributions. A typo fix, a better code example, a one-paragraph tip, a whole new chapter — it all counts. The [Limitations](09-limitations.md) page is full of gaps waiting to be filled. Every one of them is an open invitation.
+
+If you've built something with pi — an extension, a workflow, a workaround — write it up. Someone out there is stuck on the exact problem you solved last week.
+
+[:fontawesome-brands-github: Contribute](contributing.md){ .md-button } [:material-file-pdf-box: Download PDF](/pdf/pi-handbook.pdf){ .md-button }
 
 !!! note "Disclaimer"
     This is an unofficial community handbook. It is not affiliated with or endorsed by Mario Zechner or the pi project. All quotes are attributed to their original authors and linked to their sources. Pi is [MIT licensed](https://github.com/badlogic/pi-mono/blob/main/LICENSE).

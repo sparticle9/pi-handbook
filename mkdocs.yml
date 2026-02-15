@@ -50,18 +50,11 @@ nav:
   - Quick Start: 10-quickstart.md
   - Code Snippets: snippets.md
   - References: references.md
+  - Contributing: contributing.md
   - Download: download.md
 
 plugins:
   - search
-  - with-pdf:
-      author: Pi Handbook Community
-      copyright: CC BY-SA 4.0
-      cover: true
-      cover_title: Pi Coding Agent Handbook
-      cover_subtitle: An unofficial community handbook
-      output_path: pdf/pi-handbook.pdf
-      enabled_if_env: ENABLE_PDF_EXPORT
 
 markdown_extensions:
   - tables
@@ -75,6 +68,9 @@ markdown_extensions:
       alternate_style: true
   - attr_list
   - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
 
