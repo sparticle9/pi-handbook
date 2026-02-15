@@ -37,6 +37,9 @@ jobs:
       - name: Build
         run: mkdocs build -f mkdocs-pdf.yml
 
+      - name: Write CNAME
+        run: echo "${{ vars.CNAME }}" > site/CNAME
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
