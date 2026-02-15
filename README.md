@@ -1,68 +1,40 @@
 # Pi Coding Agent Handbook
 
-An unofficial community handbook for [pi](https://github.com/badlogic/pi-mono), the minimal terminal coding agent by Mario Zechner.
+I've been through the cycle -- Cursor, Claude Code, Amp, OpenCode, Codex. I still use most of them. But when I found [pi](https://github.com/badlogic/pi-mono), something clicked. It's the agent that finally made me stop reaching for Claude Code. Not because pi does everything, but because it does so little and gets out of the way.
 
-## Read Online
+This handbook is what I wish existed when I started with pi. It covers the philosophy, the architecture, the extension system, the tradeoffs, and the honest gaps. It's opinionated because pi is opinionated, and that's the point.
 
-**[pi-handbook.whatsinfor.me →](https://pi-handbook.whatsinfor.me)**
+**[Read the handbook →](https://pi-handbook.whatsinfor.me)**
 
-## Contributing — We Need You
+---
 
-This handbook is for the community, by the community. If you use pi and have something to share, please contribute.
+## What's inside
 
-**What we're looking for:**
+The core argument for pi, the four-tool architecture, how extensions replace features other agents bake in, the no-MCP stance (and why MCP 2.0 might change the calculus), community packages like oracle and handoff, a fair comparison with Claude Code / Amp / OpenCode / Aider, and a quick start that gets you running on macOS, Linux, or Android via Termux.
 
-- 🧩 New extensions or skills you've built — write them up, share the code
-- 📝 Workflow tips, patterns, or tricks that made you more productive
-- 🔍 Corrections, updates, or clarifications to existing content
-- 🆚 Comparison notes if you've used other agents alongside pi
-- 📸 Screenshots, terminal recordings, or diagrams
-- 🌍 Translations
+12 chapters. Code snippets. Every claim sourced.
 
-**How to contribute:**
+## Contributing
 
-1. Fork this repo
-2. Edit or add markdown files in `docs/`
-3. Open a PR with a short description of what you changed and why
+If you've built something with pi -- an extension, a workflow, a workaround for one of its gaps -- write it up and open a PR. The [Limitations](https://pi-handbook.whatsinfor.me/09-limitations/) page is a good place to start: every gap documented there is an invitation.
 
-No contribution is too small. A typo fix, a better code example, a one-paragraph tip — it all helps fellow agentic coding addicts get more out of pi.
+Fork, edit markdown in `docs/`, submit. That's it.
 
-If you're not sure where to start, check the [Limitations](https://pi-handbook.whatsinfor.me/09-limitations/) page — building solutions for those gaps and documenting them here is the highest-impact work.
-
-## What's Covered
-
-- Core philosophy: why pi exists and what it deliberately omits
-- Architecture: four tools, four modes, context engineering
-- Extension system: TypeScript extensions, skills, packages
-- Session management: tree-structured branching, compaction
-- Multi-model freedom: 15+ providers, mid-session switching
-- The no-MCP stance: CLI-first philosophy, benchmarks, and the MCP 2.0 counter-argument
-- Community extensions: oracle, handoff, sub-agents, model-switch
-- Honest comparison with Claude Code, Amp, OpenCode, Aider
-- Current limitations and gaps
-- Quick start guide including Android/Termux setup
-
-## Local Development
+## Local dev
 
 ```bash
 pip install mkdocs-material
 mkdocs serve
 ```
 
-Open `http://localhost:8000`.
+## Custom domain
 
-## Custom Domain Setup
-
-This site is served at `pi-handbook.whatsinfor.me`. If you're forking for your own use:
+Served at `pi-handbook.whatsinfor.me`. Forking for your own use:
 
 1. Update `site_url` in `mkdocs.yml`
-2. Update `docs/CNAME` with your domain
-3. Add a CNAME DNS record: `pi-handbook` → `YOUR_USERNAME.github.io`
+2. Update `docs/CNAME`
+3. CNAME DNS record → `YOUR_USERNAME.github.io`
 
 ## Disclaimer
 
-This handbook is not affiliated with or endorsed by Mario Zechner or the pi project. All quotes are attributed to their original authors and linked to their sources. Pi is [MIT licensed](https://github.com/badlogic/pi-mono/blob/main/LICENSE).
-
-## License
-
-Content is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Unofficial. Not affiliated with Mario Zechner or the pi project. All quotes attributed and linked. Pi is [MIT licensed](https://github.com/badlogic/pi-mono/blob/main/LICENSE). Content here is [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
