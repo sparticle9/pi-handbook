@@ -1,6 +1,10 @@
 # Pi Coding Agent Handbook
 
-I've been through the cycle — Cursor, Claude Code, Amp, OpenCode, Codex. I still use most of them. But when I found [pi](https://github.com/badlogic/pi-mono), something clicked. It's the agent that finally made me stop reaching for Claude Code. Not because pi does everything, but because it does so little and gets out of the way.
+Agentic coding is probably the best thing that's happened since the ChatGPT moment. These tools are how individual builders ship software that used to take teams — and the more we push them, the more high-quality personal software the world gets. That matters.
+
+I've been through the cycle — Aider, Cursor, Claude Code, Amp, OpenCode, Codex, Goose, Kiro, Kilo, Roo — the list goes on. I still use many of them daily. I'd already cut most of my Claude Code time once Amp came along, but with pi I'm feeling like I could finally stop reaching for it altogether.
+
+Let me be honest about one thing. Claude Code is innovative. It was mindblowing for a long time and it's still pushing forward. I respect what it's done for this space. I just don't like its arrogance. That's personal, and you're welcome to disagree. Pi is the opposite — humble, minimal, and trusts you to drive. That's the energy I want to build with.
 
 This handbook is what I wish existed when I started with pi. It covers the philosophy, the architecture, the extension system, the tradeoffs, and the honest gaps. It's opinionated because pi is opinionated, and that's the point.
 
@@ -16,7 +20,7 @@ The core argument for pi, the four-tool architecture, how extensions replace fea
 
 This handbook lives or dies by contributions. A typo fix, a better code example, a one-paragraph tip, a whole new chapter — it all counts. The [Limitations](09-limitations.md) page is full of gaps waiting to be filled. Every one of them is an open invitation.
 
-If you've built something with pi — an extension, a workflow, a workaround — write it up. Someone out there is stuck on the exact problem you solved last week.
+If you've built something with pi — an extension, a workflow, a workaround — write it up. Someone out there is stuck on the exact problem you solved last week. We're especially interested in patterns for using pi as a general agent orchestrator — coordinating sub-agents, chaining tasks, making the build process more fun, not just more productive.
 
 [:fontawesome-brands-github: Contribute](contributing.md){ .md-button } [:material-file-pdf-box: Download PDF](/pdf/pi-handbook.pdf){ .md-button }
 
