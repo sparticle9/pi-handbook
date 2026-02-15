@@ -1,6 +1,10 @@
 # Pi Coding Agent Handbook
 
-I've been through the cycle -- Cursor, Claude Code, Amp, OpenCode, Codex. I still use most of them. But when I found [pi](https://github.com/badlogic/pi-mono), something clicked. It's the agent that finally made me stop reaching for Claude Code. Not because pi does everything, but because it does so little and gets out of the way.
+Agentic coding is probably the best thing that's happened since the ChatGPT moment. These tools are how individual builders ship software that used to take teams — and the more we push them, the more high-quality personal software the world gets. That matters.
+
+I've been through the cycle — Aider, Cursor, Claude Code, Amp, OpenCode, Codex, Goose, Kiro, Kilo, Roo — the list goes on. I still use many of them daily. I'd already cut most of my Claude Code time once Amp came along, but with pi I'm feeling like I could finally stop reaching for it altogether.
+
+Let me be honest about one thing. Claude Code is innovative. It was mindblowing for a long time and it's still pushing forward. I respect what it's done for this space. I just don't like its arrogance. That's personal, and you're welcome to disagree. Pi is the opposite — humble, minimal, and trusts you to drive. That's the energy I want to build with.
 
 This handbook is what I wish existed when I started with pi. It covers the philosophy, the architecture, the extension system, the tradeoffs, and the honest gaps. It's opinionated because pi is opinionated, and that's the point.
 
@@ -16,9 +20,7 @@ The core argument for pi, the four-tool architecture, how extensions replace fea
 
 ## Contributing
 
-If you've built something with pi -- an extension, a workflow, a workaround for one of its gaps -- write it up and open a PR. The [Limitations](https://pi-handbook.whatsinfor.me/09-limitations/) page is a good place to start: every gap documented there is an invitation.
-
-Fork, edit markdown in `docs/`, submit. That's it.
+See the [contributing guide](https://pi-handbook.whatsinfor.me/contributing/).
 
 ## Local dev
 
@@ -26,14 +28,6 @@ Fork, edit markdown in `docs/`, submit. That's it.
 pip install mkdocs-material
 mkdocs serve
 ```
-
-## Custom domain
-
-Served at `pi-handbook.whatsinfor.me`. Forking for your own use:
-
-1. Update `site_url` in `mkdocs.yml`
-2. Update `docs/CNAME`
-3. CNAME DNS record → `YOUR_USERNAME.github.io`
 
 ## Disclaimer
 
