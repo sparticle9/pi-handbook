@@ -1,0 +1,82 @@
+site_name: Pi Coding Agent Handbook
+site_url: https://pi-handbook.whatsinfor.me
+site_description: An unofficial community handbook for the pi coding agent
+repo_url: https://github.com/nicobailon/pi-handbook
+repo_name: pi-handbook
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - scheme: default
+      primary: white
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Core Philosophy: 01-philosophy.md
+  - Architecture: 02-architecture.md
+  - Extension System: 03-extensions.md
+  - Session Management: 04-sessions.md
+  - Multi-Model Freedom: 05-multi-model.md
+  - "No MCP": 06-no-mcp.md
+  - Community Extensions: 07-community.md
+  - Comparison: 08-comparison.md
+  - Limitations: 09-limitations.md
+  - Quick Start: 10-quickstart.md
+  - Code Snippets: snippets.md
+  - References: references.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/badlogic/pi-mono
+      name: Pi on GitHub
+  generator: false
+
+copyright: >-
+  Unofficial community handbook &middot; Not affiliated with Mario Zechner or the pi project
+  &middot; Pi is <a href="https://github.com/badlogic/pi-mono/blob/main/LICENSE">MIT licensed</a>
+  &middot; Content is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
